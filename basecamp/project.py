@@ -1,10 +1,10 @@
+from __future__ import absolute_import
 import datetime
 import re
 
-from basecampreporting.etree import ET
-
-from basecampreporting.basecamp import Basecamp
-from basecampreporting.parser import parse_basecamp_xml, cast_to_boolean
+from .etree import ET
+from .basecamp import Basecamp
+from .parser import parse_basecamp_xml, cast_to_boolean
 
 class BasecampObject(object):
     '''Common class of Basecamp objects'''

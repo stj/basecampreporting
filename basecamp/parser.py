@@ -1,6 +1,7 @@
+from __future__ import absoulte_import
 import datetime
 
-from basecampreporting.etree import ET
+from .etree import ET
 
 def parse_basecamp_xml(xml_object):
     if hasattr(xml_object, 'getchildren'):

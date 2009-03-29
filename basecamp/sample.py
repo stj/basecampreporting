@@ -1,6 +1,6 @@
 """Silly command line dump of the status of a project, provided as a sample of how you might use the module."""
-
-from project import Project
+from __future__ import absolute_import
+from .project import Project
 
 def main(url, project_id, username, password):
     p = Project(url, project_id, username, password)

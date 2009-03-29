@@ -1,9 +1,10 @@
+from __future__ import absolute_import
 import simplejson
 
 
-from basecampreporting.etree import ET
-from basecampreporting.basecamp import Basecamp
-from basecampreporting.project import Project
+from .etree import ET
+from .basecamp import Basecamp
+from .project import Project
 
 class TestBasecamp(Basecamp):
     """Subclass of Basecamp which records network transactions.

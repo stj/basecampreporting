@@ -47,6 +47,7 @@ Usage:
 
     # See the ElementTree website for more information on how to use it.
 """
+from __future__ import absolute_import
 
 __author__ = 'Jochen Kupperschmidt <webmaster@nwsnet.de>'
 __version__ = '0.1'
@@ -56,7 +57,7 @@ __date__ = '2006-05-21'
 import base64
 import urllib2
 
-from basecampreporting.etree import ET
+from .etree import ET
 
 
 class Basecamp(object):
